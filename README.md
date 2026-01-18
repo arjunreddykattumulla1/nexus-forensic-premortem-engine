@@ -1,36 +1,59 @@
 
 # Nexus Forensic Pre-Mortem Engine 🛡️🔬
 
-An enterprise-grade intelligence platform that predicts how and why complex systems will fail before they are deployed. Using **Gemini 2.5/3 Pro**, Nexus simulates architecture cascades, scores probabilistic risk (Bayesian P95), and generates forensic prevention roadmaps.
+An enterprise-grade adversarial intelligence platform designed to simulate system collapses before they reach production. Nexus utilizes **Gemini 2.5/3 Pro** to map architectural vulnerabilities through Bayesian probabilistic simulation (P95).
 
-## 🚀 Key Features
+![Nexus Banner](https://via.placeholder.com/1200x400/020617/f43f5e?text=NEXUS+FORENSIC+ENGINE+v2.5)
 
-- **Adversarial Simulation**: Triggers deep-dives into systemic vulnerabilities, infrastructure gridlock, and logic collapses.
-- **Forensic Dashboard**: Real-time Risk Heatmaps, Hardening ROI Analysis, and Bayesian Risk Trending.
-- **Deep Failure Briefings**: AI-driven "Explain Error" button for technical anatomy and trigger vectors.
-- **Enterprise Reporting**:
-  - **Visual Reports**: ASCII-structured dashboards optimized for Slack/Email stakeholders.
-  - **Forensic Dossiers**: High-fidelity PDF exports for executive review.
-- **Identity Vault**: Multi-provider secure authentication with simulated Cryptographic OTP verification.
+## 📂 Project Structure
+
+```text
+nexus-forensic-premortem-engine/
+│
+├── README.md                # Forensic Documentation
+├── LICENSE                  # MIT Open Source
+├── package.json             # Build Orchestration
+├── vite.config.ts           # Production Pipeline
+├── tsconfig.json            # Strict-Type Schema
+│
+├── frontend/                # Root Source (Move here for production)
+│   ├── index.html           # Secure Entry Point
+│   └── src/
+│       ├── App.tsx          # Nexus Command Center
+│       ├── components/      # UI Forensic Modules
+│       ├── services/        # Intelligence Layer (Gemini API)
+│       └── types.ts         # Actuarial Risk Schema
+│
+└── docs/                    # Recruiter Artifacts
+    ├── screenshots/         # Dashboards & Simulations
+    └── dossiers/            # Sample PDF Export
+```
+
+## 🚀 Key Engineering Features
+
+- **Adversarial Cascade Simulation**: Uses LLM-driven Directed Acyclic Graphs (DAGs) to predict failure chains.
+- **Actuarial Dashboard**: Real-time Heatmaps and Hardening ROI Analysis via Recharts.
+- **Dossier Export Engine**: High-fidelity PDF generation of forensic reports using `html2canvas` and `jsPDF`.
+- **System Health Manifest**: Live diagnostic stream for internal simulation monitoring.
+- **Bayesian Risk Trending**: Historical and projected risk scoring compared against system baselines.
 
 ## 🛠️ Tech Stack
 
-- **Framework**: React 19 (ES6 Modules)
-- **Intelligence**: Google Gemini API (`@google/genai`)
-- **UI/UX**: Tailwind CSS, Lucide Icons, Recharts
-- **Export**: jsPDF, html2canvas
+- **Core**: React 19 + TypeScript
+- **AI**: Google Gemini API (`@google/genai`)
+- **Graphics**: Recharts (Actuarial Visualization)
+- **Styling**: Tailwind CSS + Framer-inspired animations
+- **Exports**: jsPDF & html2canvas
 
-## 🔑 Setup
+## 🔑 Installation & Access
 
-1. **API Key**: This application requires a Google Gemini API Key.
-2. **Environment**: Ensure `process.env.API_KEY` is configured in your deployment environment (e.g., Vercel, Netlify, or local `.env`).
-
-## 🛡️ Security Protocol
-
-The app includes a mock authentication layer (Nexus Identity Vault) to demonstrate enterprise access patterns, including:
-- Social Login (Google, Microsoft, Yahoo)
-- Email/Password + OTP Verification
-- Session persistence via LocalStorage
+1. **Obtain API Key**: Requires a Google Gemini API Key from [AI Studio](https://aistudio.google.com/).
+2. **Setup**:
+   ```bash
+   npm install
+   npm run dev
+   ```
+3. **Environment**: Add `API_KEY` to your environment variables.
 
 ---
-*Developed as a high-fidelity demonstration of AI-driven SRE and Risk Management.*
+*Developed as a high-fidelity demonstration of SRE logic and Adversarial Risk Management.*

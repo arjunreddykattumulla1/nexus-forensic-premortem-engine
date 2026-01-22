@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line } from 'recharts';
 import { ExecutiveMetrics } from '../../types/forensic.types';
@@ -80,7 +79,7 @@ export const SystemStatusManifest = () => (
   </div>
 );
 
-export const ExecutiveDashboard: React.FC<{ metrics: ExecutiveMetrics, overallScore: number }> = ({ metrics, overallScore }) => {
+export const ExecutiveDecisionDashboard: React.FC<{ metrics: ExecutiveMetrics, overallScore: number }> = ({ metrics, overallScore }) => {
   return (
     <div className="space-y-16">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">

@@ -1,1 +1,9 @@
-
+{
+  "name": "Nexus Forensic Pre-Mortem Engine",
+  "short_name": "NexusForensics",
+  "description": "Enterprise Adversarial System Simulation & Forensic Intelligence Platform.",
+  "theme_color": "#020617",
+  "background_color": "#020617",
+  "display": "standalone",
+  "requestFramePermissions": []
+}
